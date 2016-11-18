@@ -1,9 +1,9 @@
 var ReactDom = require('react-dom');
 var React = require('react');
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import NavBar from './components/NavBar/NavBar';
-import Characters from './components/Characters/Characters';
+import Home from './src/components/Home/Home';
+import About from './src/components/About/About';
+import NavBar from './src/components/NavBar/NavBar';
+import Characters from './src/components/Characters/Characters';
 
 var Router =  React.createClass({
     render: function(){
